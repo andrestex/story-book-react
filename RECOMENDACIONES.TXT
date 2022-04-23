@@ -1,0 +1,5 @@
+1. Remover react-scripts, npm uninstall react-scripts
+2. Eliminar la caperta public
+3. En la carpeta src dejaremos solo el archivo index.tsx
+4. Instalar storybook, npx sb init
+5. Organizar los scripts para ejecutar nuestra app por ejemplo - "start": "start-storybook -p 6006"
