@@ -24,10 +24,8 @@ export interface MyLabelProps {
   fontColor?: string;
 }
 
-const MyLabel = ({label, size = 'normal', allCaps = false, color = 'primary', fontColor}: MyLabelProps) => {
+export const MyLabel = ({label, size = 'normal', allCaps = false, color = 'primary', fontColor}: MyLabelProps) => {
   return (
     <span className={`${size} text-${color} label`} style={{ textTransform: allCaps ? 'capitalize' : 'none', color: fontColor ? fontColor : ''}}>{label}</span>
   )
 }
-
-export default MyLabel
